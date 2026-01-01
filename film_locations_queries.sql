@@ -9,7 +9,7 @@ SELECT*FROM FilmLocations;
   
 SELECT Title, Director, Writer FROM Filmlocations;
 
-3. Retrieve film names, filming locations, and release years. Using WHERE clause to filter the data based on predicate which is only 
-the film records released in 2001 and onwards.
+3. Retrieve film titles, filming locations, and release years. Using WHERE clause to filter the data based on predicate which is only 
+the film records released in 2001 and later.
   
-  SELECT Title, ReleaseYear, Locations FROM Filmlocations WHERE ReleaseYear>=2001
+  SELECT Title, ReleaseYear, Locations FROM FilmLocations WHERE ReleaseYear>=2001
