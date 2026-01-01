@@ -1,7 +1,7 @@
 SF Film Locations Analysis 
 Portfolio project based on Coursera Lab
 
-1. Using SELECT command to retrieve entire table of colomn from the database table 
+1. Using SELECT command to retrieve entire table of column from the database table 
   
 SELECT*FROM FilmLocations;
 
